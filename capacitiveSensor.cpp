@@ -12,8 +12,7 @@
 */
 CapacitiveSensor
 cs_4_2 = CapacitiveSensor(4,2);
-// 1 megohm resistor between pins 4 &
-2, pin 2 is sensor pin, add wire, foil
+// 1 megohm resistor between pins 4 & 2, pin 2 is sensor pin, add wire, foil
 int threshold = 300;
 void setup()
 {
@@ -58,7 +57,4 @@ playtone();
 }
 delay(10);
 }
-// check on performance in milliseconds
-// tab character for debug window spacing
-// print sensor output 1
-// arbitrary delay to limit data to serial port
+
